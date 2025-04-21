@@ -304,7 +304,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
         <div class="col">
           <h2>Proposed Approach</h2>
           <div>
-            <img src="./audios/overall2.png" width="80%">
+            <!-- <img src="./audios/overall2.png" width="80%"> -->
             <br>First, we extract linguistic content, pitch representation, and speaker embedding from the source speech. We train the content encoder from scratch by combining phoneme-level prediction networks with the speaker normalization and content restoration module to disentangle speaker information and linguistic content. We adopt ECAPA-TDNN as our speaker encoder by applying consistency loss to extract accurate and robust speaker embedding. We use a layer of 1-D convolutional neural networks to encode whitened pitch information for pitch representation. Then, we utilize a decoder to reconstruct the mel-spectrogram given these extracted details.
           </div>
         </div>
@@ -341,34 +341,34 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
 
 
             <tr>
-              <th scope="row">1</th>
+              <th style="text-align: center" scope="row">1</th>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/source/p251_094.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/target/p225_122.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/VQMIVC/p251_094&p225_122_gen.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DiffVC/p251_094&p225_122.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DDDM-VC/p251_094&p225_122.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/Our method/p251_094&p225_122.wav" type="audio/wav">
                 </audio>
               </td>
@@ -376,68 +376,68 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
             </tr>
 
             <tr>
-              <th scope="row">2</th>
+              <th style="text-align: center" scope="row">2</th>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/source/p279_171.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/target/p227_235.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/VQMIVC/p279_171&p227_235_gen.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DiffVC/p279_171&p227_235.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DDDM-VC/p279_171&p227_235.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/Our method/p279_171&p227_235.wav" type="audio/wav">
                 </audio>
               </td>
             </tr>
 
             <tr>
-              <th scope="row">3</th>
+              <th style="text-align: center" scope="row">3</th>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/source/p298_111.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/target/p233_263.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/VQMIVC/p298_111&p233_263_gen.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DiffVC/p298_111&p233_263.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DDDM-VC/p298_111&p233_360.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/Our method/p298_111&p233_263.wav" type="audio/wav">
                 </audio>
               </td>
@@ -445,34 +445,34 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
             </tr>
 
             <tr>
-              <th scope="row">4</th>
+              <th style="text-align: center" scope="row">4</th>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/source/p363_352.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/target/p374_180.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/VQMIVC/p363_352&p374_180_gen.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DiffVC/p363_352&p374_180.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/DDDM-VC/p363_352&p374_180.wav" type="audio/wav">
                 </audio>
               </td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/Our method/p363_352&p374_180.wav" type="audio/wav">
                 </audio>
               </td>
@@ -490,13 +490,13 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
             <tr>
               <td>Source Speech</td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/ablation/p228_160.wav" type="audio/wav">
                 </audio>
               </td>
               <td>Traget Speech</td>
               <td>
-                <audio style="width: 100px;" controls="" preload="none" controls="">
+                <audio style="width: 100px;" controls="" preload="none">
                   <source src="./audios/ablation/p225_122.wav" type="audio/wav">
                 </audio>
               </td>
@@ -511,7 +511,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
                 Our method
               </td>
               <td>
-                <audio style="width: 400px;" controls="" preload="none" controls="">
+                <audio style="width: 400px;" controls="" preload="none">
                   <source src="./audios/ablation/p228_160&p225_122_our_method.wav" type="audio/wav">
                 </audio>
               </td>
@@ -521,7 +521,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
                 Base1
               </td>
               <td>
-                <audio style="width: 400px;" controls="" preload="none" controls="">
+                <audio style="width: 400px;" controls="" preload="none">
                   <source src="./audios/ablation/p228_160&p225_122_base1.wav" type="audio/wav">
                 </audio>
               </td>
@@ -531,7 +531,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
                 Base2
               </td>
               <td>
-                <audio style="width: 400px;" controls="" preload="none" controls="">
+                <audio style="width: 400px;" controls="" preload="none" >
                   <source src="./audios/ablation/p228_160&p225_122_base2.wav" type="audio/wav">
                 </audio>
               </td>
@@ -541,7 +541,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
                 Base3
               </td>
               <td>
-                <audio style="width: 400px;" controls="" preload="none" controls="">
+                <audio style="width: 400px;" controls="" preload="none">
                   <source src="./audios/ablation/p228_160&p225_122_base3.wav" type="audio/wav">
                 </audio>
               </td>
@@ -551,7 +551,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
                 Base4
               </td>
               <td>
-                <audio style="width: 400px;" controls="" preload="none" controls="">
+                <audio style="width: 400px;" controls="" preload="none">
                   <source src="./audios/ablation/p228_160&p225_122_base4.wav" type="audio/wav">
                 </audio>
               </td>
@@ -566,26 +566,7 @@ Experimental results demonstrate that our proposed method demonstrates outstandi
     </div>
   </main>
 
-<!--  <footer class="bg-secondary text-light mt-4 pt-3 pb-2 ">-->
-<!--    <div class="container">-->
-<!--      <p class="text-center">-->
-<!--        <small>-->
-<!--          StableVC: Flexible Stylistic Voice Conversion in Latent Space Driven by Natural Language Prompts-->
-<!--          <br>-->
-<!--          <a class="text-light"><strong>Jixun Yao</strong></a> |-->
-<!--          yaojx@mail.nwpu.edu.cn-->
-<!--          <br>-->
-<!--          <script async=""-->
-<!--            src="./NeuralDPS_ Neural Deterministic Plus Stochastic Model with Multiband Excitation for Noise-Controllable Waveform Generation_files/busuanzi.pure.mini.js"></script>-->
 
-<!--          &lt;!&ndash; <span id="busuanzi_container_page_pv" style="display: inline;">-->
-<!--            Total number of visits: <span id="busuanzi_value_page_pv">104</span>-->
-<!--        </span></small> &ndash;&gt;-->
-<!--      </p>-->
-<!--    </div>-->
-<!--  </footer>-->
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script
     src="./NeuralDPS_ Neural Deterministic Plus Stochastic Model with Multiband Excitation for Noise-Controllable Waveform Generation_files/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
